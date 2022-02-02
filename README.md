@@ -17,7 +17,7 @@ Home and about pages.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://kakalanp.github.io/Capstonproj-Conference-page/)
 
 ## Getting Started
 
@@ -49,8 +49,11 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Hat tip to anyone whose code was used
+
 - Logo provided by [LogoLoco.com](https://www.logologo.com/) Logo licence in the About page.
+
 - All icons (including the teachers photos) were given by [icons8](https://icons8.com/) Thanks for these amazing icons!
+
 - Some teachers names and descriptions were burrowed from [Tomas Laurinavicius's](https://tutsplus.com/authors/tomas-laurinavicius) Article named [10 People Who Have Shaped the Web Design Industry](https://webdesign.tutsplus.com/articles/10-people-who-have-shaped-the-web-design-industry--cms-31334) on [evantotutus](https://tutsplus.com/). Thanks for the well done research!
 
 
