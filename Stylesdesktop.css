@@ -1,69 +1,100 @@
 @media (min-width: 768px) {
-    .desktop {
-        display: block; 
-    }
+  .desktop {
+    display: block;
+  }
 
-    h1 {
-        font-size: 5rem;
-    }
+  .mobile {
+    display: none;
+  }
 
-    .preNavBar {
-        display:flex;
-        justify-content: flex-end;
-        z-index: 999;
-        margin: 0 auto;
-        background-color: #3E3E3E;
-        padding: 0 100px;
-        position: absolute;
-        width: calc(100% - 200px);
-        column-gap: 10px;
-        max-height: 20px;
-    }
-    
-    .navBar {
-        top: 0;
-        display: flex;
-        justify-content: space-between;
-        height: 60px;
-        width: calc(100% - 200px);
-        position: fixed;
-        z-index: 0;
-        background-color: white;
-        padding: 20px 100px 5px;
-        overflow: hidden;
-        box-shadow: 0 1px 7px #d3d3d3;
-    }
+  h1 {
+    font-size: 5rem;
+  }
 
-    .main {
-    max-width: 60%; 
-    padding: 85px;
-    height: calc(100vh - 170px);
-    }
+  .pre-nav-bar {
+    display: flex;
+    justify-content: flex-end;
+    z-index: 999;
+    margin: 0 auto;
+    background-color: #3e3e3e;
+    padding: 0 20px;
+    position: absolute;
+    width: calc(100% - 40px);
+    column-gap: 10px;
+    height: 30px;
+    align-items: center;
+  }
 
-    @supports (display: grid) {
-        .programCards {
-            display: grid;
-            grid-template-columns: 15% 15% 15% 15% 15%;
-            grid-template-rows: 200px;
-            column-gap: 3px;
-        }
-    }
+  .pre-nav-bar .link:hover {
+    text-decoration: underline;
+  }
 
-    .card {
-        margin: 0;
-        flex-direction: column;
-    }
+  .nav-bar {
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    width: calc(100% - 40px);
+    position: fixed;
+    z-index: 0;
+    background-color: white;
+    padding: 30px 20px 5px;
+    overflow: hidden;
+    box-shadow: 0 1px 7px #d3d3d3;
+  }
 
-    .card > * {
-        margin: 0;
-        max-height: 60%;
-    }
+  .menu {
+    display: flex;
+    flex-direction: row;
+    width: 60vw;
+    padding: 0;
+    height: 100%;
+    position: relative;
+  }
 
-    .partnersImg{
-        flex-direction: row;
+  .main {
+    padding: 95px 30% 0 95px;
+    min-height: calc(100vh - 170px);
+    background-position-y: 95px;
+  }
+
+  .starting-date {
+    font-size: 2rem;
+  }
+
+  @supports (display: grid) {
+    .program-cards {
+      display: grid;
+      grid-template-columns: 15% 15% 15% 15% 15%;
+      grid-template-rows: 200px;
+      column-gap: 3px;
     }
-    
-    .partner img {
-        max-width: 150px;
-    }
+  }
+
+  .card {
+    margin: 0;
+    flex-direction: column;
+  }
+
+  .card > * {
+    margin: 0;
+    max-height: 60%;
+  }
+
+  .about {
+    padding: 115px 115px 10px;
+    background-position-y: 95px;
+  }
+
+  .logoabout {
+    padding: 10px 115px;
+  }
+
+  .succesful-students {
+    padding: 10px 115px;
+  }
+
+  .student {
+    max-height: 150px;
+  }
 }
