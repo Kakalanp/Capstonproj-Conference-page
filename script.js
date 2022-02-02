@@ -61,7 +61,7 @@ document.querySelector('.hamburger').addEventListener('click', () => {
     outside.style.position = 'fixed';
     outside.style.height = '30vh';
 
-    document.querySelector('.navBar').appendChild(outside);
+    document.querySelector('.nav-bar').appendChild(outside);
 
     outside.addEventListener('click', () => {
       closeMenu();
