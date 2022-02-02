@@ -50,6 +50,8 @@ Give a ⭐️ if you like this project!
 
 - Hat tip to anyone whose code was used
 
+- Original [design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) by [Cindy Shin in Behance](https://www.behance.net/adagio07)
+
 - Logo provided by [LogoLoco.com](https://www.logologo.com/) Logo licence in the About page.
 
 - All icons (including the teachers photos) were given by [icons8](https://icons8.com/) Thanks for these amazing icons!
@@ -60,3 +62,5 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
+
+This project serves no commercial purposes, as stated in the [Licenses](https://creativecommons.org/licenses/by-nc/4.0/) page of [Creative Commons](https://creativecommons.org/) and does it's best to correctly attribute the respective credit to the website and the designer, stating that **Changes were made** to follow the guidelines of personal use.
