@@ -369,18 +369,16 @@ footer img {
 
 footer {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   padding-top: 40px;
 }
 
-.index-footer {
-  background-color: white;
+footer h3 {
+  margin: 0;
 }
 
-.about-footer {
-  background-color: #272a31;
-  color: white;
+.index-footer {
+  background-color: white;
 }

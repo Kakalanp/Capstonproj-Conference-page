@@ -103,7 +103,8 @@
     max-height: 150px;
   }
 
-  footer {
-    flex-direction: row;
+  .about-footer {
+    background-color: #272a31;
+    color: white;
   }
 }
