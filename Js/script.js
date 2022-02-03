@@ -47,6 +47,11 @@ document.querySelector('.hamburger').addEventListener('click', () => {
     hamburger.style.position = 'relative';
     menu.style.display = 'none';
     openMenu = false;
+
+    const nav = document.querySelector('.nav-bar');
+    const logo = document.querySelector('.logo');
+    logo.classList.add('desktop');
+    nav.prepend(logo);
   }
 
   if (openMenu === false) {
@@ -62,6 +67,10 @@ document.querySelector('.hamburger').addEventListener('click', () => {
     outside.style.height = '30vh';
 
     document.querySelector('.nav-bar').appendChild(outside);
+
+    const logo = document.querySelector('.logo');
+    logo.classList.remove('desktop');
+    menu.prepend(logo);
 
     outside.addEventListener('click', () => {
       closeMenu();
