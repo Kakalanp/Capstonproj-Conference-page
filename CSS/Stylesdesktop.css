@@ -69,6 +69,11 @@
       grid-template-rows: 200px;
       column-gap: 3px;
     }
+
+    .teachers {
+      display: grid;
+      grid-template-columns: 30% 30%;
+    }
   }
 
   .card {
@@ -91,10 +96,14 @@
   }
 
   .succesful-students {
-    padding: 10px 115px;
+    padding: 50px 115px;
   }
 
   .student {
     max-height: 150px;
+  }
+
+  footer {
+    flex-direction: row;
   }
 }

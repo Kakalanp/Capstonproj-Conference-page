@@ -51,6 +51,10 @@ h2 {
   font-size: 2rem;
 }
 
+footer img {
+  max-width: 50%;
+}
+
 .icon img {
   max-height: 20px;
   max-width: 20px;
@@ -137,7 +141,7 @@ h2 {
   color: #575757;
 }
 
-footer h2 {
+.partners h2 {
   color: #d3d3d3;
 }
 
@@ -232,7 +236,14 @@ footer h2 {
 .teachers {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
+}
+
+@supports (display: grid) {
+  .teachers {
+    display: grid;
+    grid-template-columns: 80%;
+  }
 }
 
 .teacher {
@@ -241,6 +252,7 @@ footer h2 {
   align-items: center;
   padding: 10px;
   margin: 20px 0;
+  justify-self: center;
 }
 
 .teacher h4 {
@@ -256,9 +268,10 @@ footer h2 {
   margin: 0;
 }
 
-footer {
+.partners {
   background-color: #414246;
   text-align: center;
+  padding: 30px 0;
 }
 
 .partners-img {
@@ -331,6 +344,7 @@ footer {
   justify-content: space-around;
   height: 50vh;
   box-shadow: 0 1px 7px #d3d3d3;
+  padding: 30px 0;
 }
 
 .succesful-students h2 {
@@ -350,5 +364,23 @@ footer {
   max-width: 270px;
   max-height: 100px;
   background-color: #ec5242;
+  color: white;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.index-footer {
+  background-color: white;
+}
+
+.about-footer {
+  background-color: #272a31;
   color: white;
 }

@@ -45,7 +45,7 @@ document.querySelector('.hamburger').addEventListener('click', () => {
 
   function closeMenu() {
     hamburger.style.position = 'relative';
-    menu.style.display = 'none';
+    menu.style.removeProperty('display');
     openMenu = false;
 
     const nav = document.querySelector('.nav-bar');
