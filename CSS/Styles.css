@@ -1,5 +1,5 @@
 /* stylelint-disable custom-property-pattern */
-@import "./fonts.css";
+@import "../fonts.css";
 
 :root {
   --CocogooseBold: cocogoose-bold, helvetica, sans-serif;
@@ -132,7 +132,7 @@ h2 {
   flex-direction: column;
   justify-content: center;
   padding: 75px 10px;
-  background-image: url("./Images/MainBackground.png");
+  background-image: url("../Images/MainBackground.png");
   background-repeat: no-repeat;
   color: #575757;
 }
@@ -147,7 +147,7 @@ footer h2 {
 
 @supports (-webkit-background-clip: text) {
   .main-title {
-    background-image: url("./Images/Font-background.png");
+    background-image: url("../Images/Font-background.png");
     background-repeat: repeat;
     /* stylelint-disable-next-line csstree/validator */
     background-clip: text;
@@ -272,7 +272,7 @@ footer {
 }
 
 .about {
-  background-image: url("./Images/AboutBackground.png");
+  background-image: url("../Images/AboutBackground.png");
   background-repeat: no-repeat;
   height: 100vh;
   text-align: center;
